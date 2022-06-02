@@ -15,10 +15,6 @@ class MainActivity : AppCompatActivity() {
 
         // Do a dice roll when app starts
         rollDice()
-
-            //val resultTextView: TextView = findViewById(R.id.textView)
-            // resultTextView.text = "6"
-            //    val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT).show()
         }
     // Class for randomizing the Dice integers
     class Dice(private val numSides: Int) {
